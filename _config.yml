@@ -1,0 +1,24 @@
+title: Nicholas Winn
+description: Personal Portfolio of Projects and Interests
+remote_theme: mmistakes/minimal-mistakes
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+
+author:
+  name: "Nicholas Winn"
+  bio: "A Computational Biologist with a passion for data science"
+  location: "Your City, State"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Nicholas-Winn"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
